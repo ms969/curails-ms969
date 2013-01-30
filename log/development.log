@@ -7,3 +7,117 @@ Served asset /rails.png - 200 OK (6ms)
 
 Started GET "/assets/rails.png" for 128.253.43.19 at 2013-01-23 19:23:31 +0000
 Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 128.84.127.79 at 2013-01-30 18:40:35 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (6ms)
+
+
+Started GET "/static_pages/help" for 128.84.127.79 at 2013-01-30 18:42:23 +0000
+Connecting to database specified by database.yml
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (3.6ms)
+Compiled static_pages.css  (80ms)  (pid 1312)
+Compiled application.css  (111ms)  (pid 1312)
+Compiled jquery.js  (3ms)  (pid 1312)
+Compiled jquery_ujs.js  (0ms)  (pid 1312)
+Compiled static_pages.js  (460ms)  (pid 1312)
+Compiled application.js  (561ms)  (pid 1312)
+Completed 200 OK in 841ms (Views: 840.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 128.84.127.79 at 2013-01-30 18:42:24 +0000
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 128.84.127.79 at 2013-01-30 18:42:25 +0000
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 128.84.127.79 at 2013-01-30 18:42:25 +0000
+Served asset /static_pages.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 128.84.127.79 at 2013-01-30 18:42:25 +0000
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 128.84.127.79 at 2013-01-30 18:42:25 +0000
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 128.84.127.79 at 2013-01-30 18:42:25 +0000
+Served asset /static_pages.js - 200 OK (3ms)
+
+
+Started GET "/static_pages/home" for 128.84.127.79 at 2013-01-30 18:42:32 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 128.84.127.79 at 2013-01-30 18:42:32 +0000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 128.84.127.79 at 2013-01-30 18:42:32 +0000
+Served asset /static_pages.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/static_pages/home" for 128.84.127.79 at 2013-01-30 19:29:16 +0000
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 109ms (Views: 108.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 128.84.127.79 at 2013-01-30 19:29:17 +0000
+Served asset /static_pages.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 128.84.127.79 at 2013-01-30 19:29:17 +0000
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/static_pages/about" for 128.84.127.79 at 2013-01-30 19:29:27 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 128.84.127.79 at 2013-01-30 19:29:27 +0000
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 128.84.127.79 at 2013-01-30 19:29:27 +0000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/help" for 128.84.127.79 at 2013-01-30 19:29:35 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 128.84.127.79 at 2013-01-30 19:29:35 +0000
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 128.84.127.79 at 2013-01-30 19:29:35 +0000
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/help" for 128.84.127.79 at 2013-01-30 19:33:23 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 128.84.127.79 at 2013-01-30 19:33:23 +0000
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 128.84.127.79 at 2013-01-30 19:33:23 +0000
+Served asset /static_pages.css - 304 Not Modified (0ms)

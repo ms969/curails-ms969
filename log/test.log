@@ -1,0 +1,805 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:01:32 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (45.3ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:03:20 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:06:46 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (47.8ms)
+Completed 200 OK in 110ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:06:46 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:07:32 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (48.3ms)
+Completed 200 OK in 107ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:07:32 +0000
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:11:36 +0000
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:11:36 +0000
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:11:36 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:13:53 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:13:54 +0000
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:13:54 +0000
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:15:55 +0000
+Processing by StaticPagesController#about as HTML
+Completed 500 Internal Server Error in 60ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:15:55 +0000
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:15:55 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:18:16 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (45.2ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:18:16 +0000
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:18:16 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:19:42 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:19:42 +0000
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:19:42 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:24:50 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (52.1ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:24:50 +0000
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:24:50 +0000
+Processing by StaticPagesController#help as HTML
+ERROR: compiling _app_views_static_pages_help_html_erb___775639151784744956_36186500 RAISED /home/ec2-user/apps/info2310/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/ec2-user/apps/info2310/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^
+Function body:           def _app_views_static_pages_help_html_erb___775639151784744956_36186500(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/help";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; provide (:title, 'Help') 
+@output_buffer.safe_concat('<h1>Help</h1>
+<p>
+  Get help on the INFO2310 MicroPoster at 
+  <a href="http://curails.herokuapp.com">the course website</a>
+</p>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `module_eval'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `compile'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `compile!'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:144:in `block in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:143:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:88:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/ec2-user/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:167:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:414:in `_run__4463390858696353578__process_action__1104497546485501999__callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:121:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:45:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal.rb:203:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal.rb:246:in `block in action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/etag.rb:23:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/conditionalget.rb:25:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/session/abstract/id.rb:210:in `context'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/session/abstract/id.rb:205:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/query_cache.rb:64:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `_run__154171138460871885__call__4328933545795757553__callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:32:in `call_app'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/methodoverride.rb:21:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/runtime.rb:17:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/lock.rb:15:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/engine.rb:479:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/application.rb:223:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/builder.rb:134:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:64:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:49:in `each'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:49:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/mock_session.rb:30:in `request'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/test.rb:230:in `process_request'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/test.rb:57:in `get'
+/home/ec2-user/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/forwardable.rb:201:in `get'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:62:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:21:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/driver.rb:32:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/session.rb:157:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/dsl.rb:161:in `visit'
+/home/ec2-user/apps/info2310/spec/requests/static_pages_spec.rb:31:in `block (3 levels) in <top (required)>'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:114:in `instance_eval'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:114:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:254:in `with_around_each_hooks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:111:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:388:in `block in run_examples'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:384:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:384:in `run_examples'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:369:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/reporter.rb:34:in `report'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:25:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/runner.rb:80:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/runner.rb:17:in `block in autorun'
+Completed 500 Internal Server Error in 10ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:24:50 +0000
+Processing by StaticPagesController#help as HTML
+ERROR: compiling _app_views_static_pages_help_html_erb___775639151784744956_36186500 RAISED /home/ec2-user/apps/info2310/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/ec2-user/apps/info2310/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^
+Function body:           def _app_views_static_pages_help_html_erb___775639151784744956_36186500(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/help";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; provide (:title, 'Help') 
+@output_buffer.safe_concat('<h1>Help</h1>
+<p>
+  Get help on the INFO2310 MicroPoster at 
+  <a href="http://curails.herokuapp.com">the course website</a>
+</p>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `module_eval'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `compile'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `compile!'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:144:in `block in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:143:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:88:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/ec2-user/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:167:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:414:in `_run__4463390858696353578__process_action__1104497546485501999__callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:121:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:45:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal.rb:203:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal.rb:246:in `block in action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/etag.rb:23:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/conditionalget.rb:25:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/session/abstract/id.rb:210:in `context'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/session/abstract/id.rb:205:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/query_cache.rb:64:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `_run__154171138460871885__call__4328933545795757553__callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:32:in `call_app'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/methodoverride.rb:21:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/runtime.rb:17:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/lock.rb:15:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/engine.rb:479:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/application.rb:223:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/builder.rb:134:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:64:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:49:in `each'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:49:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/mock_session.rb:30:in `request'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/test.rb:230:in `process_request'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/test.rb:57:in `get'
+/home/ec2-user/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/forwardable.rb:201:in `get'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:62:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:21:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/driver.rb:32:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/session.rb:157:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/dsl.rb:161:in `visit'
+/home/ec2-user/apps/info2310/spec/requests/static_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:114:in `instance_eval'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:114:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:254:in `with_around_each_hooks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:111:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:388:in `block in run_examples'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:384:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:384:in `run_examples'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:369:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/reporter.rb:34:in `report'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:25:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/runner.rb:80:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/runner.rb:17:in `block in autorun'
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:24:50 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:24:50 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:25:30 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:25:30 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:25:30 +0000
+Processing by StaticPagesController#help as HTML
+ERROR: compiling _app_views_static_pages_help_html_erb__3302871320294733078_26296180 RAISED /home/ec2-user/apps/info2310/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/ec2-user/apps/info2310/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^
+Function body:           def _app_views_static_pages_help_html_erb__3302871320294733078_26296180(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/help";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; provide (:title, 'Help') 
+@output_buffer.safe_concat('<h1>Help</h1>
+<p>
+  Get help on the INFO2310 MicroPoster at 
+  <a href="http://curails.herokuapp.com">the course website</a>
+</p>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `module_eval'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `compile'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `compile!'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:144:in `block in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:143:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:88:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/ec2-user/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:167:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:414:in `_run__4150224231829171318__process_action__4437182595061349618__callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:121:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:45:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal.rb:203:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal.rb:246:in `block in action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/etag.rb:23:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/conditionalget.rb:25:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/session/abstract/id.rb:210:in `context'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/session/abstract/id.rb:205:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/query_cache.rb:64:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `_run__2925260327189948007__call__3071785010245891403__callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:32:in `call_app'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/methodoverride.rb:21:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/runtime.rb:17:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/lock.rb:15:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/engine.rb:479:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/application.rb:223:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/builder.rb:134:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:64:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:49:in `each'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:49:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/mock_session.rb:30:in `request'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/test.rb:230:in `process_request'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/test.rb:57:in `get'
+/home/ec2-user/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/forwardable.rb:201:in `get'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:62:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:21:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/driver.rb:32:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/session.rb:157:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/dsl.rb:161:in `visit'
+/home/ec2-user/apps/info2310/spec/requests/static_pages_spec.rb:31:in `block (3 levels) in <top (required)>'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:114:in `instance_eval'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:114:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:254:in `with_around_each_hooks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:111:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:388:in `block in run_examples'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:384:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:384:in `run_examples'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:369:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/reporter.rb:34:in `report'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:25:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/runner.rb:80:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/runner.rb:17:in `block in autorun'
+Completed 500 Internal Server Error in 10ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:25:30 +0000
+Processing by StaticPagesController#help as HTML
+ERROR: compiling _app_views_static_pages_help_html_erb__3302871320294733078_26296180 RAISED /home/ec2-user/apps/info2310/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/ec2-user/apps/info2310/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^
+Function body:           def _app_views_static_pages_help_html_erb__3302871320294733078_26296180(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/help";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; provide (:title, 'Help') 
+@output_buffer.safe_concat('<h1>Help</h1>
+<p>
+  Get help on the INFO2310 MicroPoster at 
+  <a href="http://curails.herokuapp.com">the course website</a>
+</p>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `module_eval'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `compile'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `compile!'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:144:in `block in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/template.rb:143:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:88:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/ec2-user/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:167:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:414:in `_run__4150224231829171318__process_action__4437182595061349618__callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:121:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:45:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal.rb:203:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_controller/metal.rb:246:in `block in action'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/etag.rb:23:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/conditionalget.rb:25:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/session/abstract/id.rb:210:in `context'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/session/abstract/id.rb:205:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/query_cache.rb:64:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activerecord-3.2.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `_run__2925260327189948007__call__3071785010245891403__callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:32:in `call_app'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/methodoverride.rb:21:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/runtime.rb:17:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/activesupport-3.2.11/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/lock.rb:15:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.11/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/engine.rb:479:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/railties-3.2.11/lib/rails/application.rb:223:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/builder.rb:134:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:64:in `block in call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:49:in `each'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-1.4.4/lib/rack/urlmap.rb:49:in `call'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/mock_session.rb:30:in `request'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/test.rb:230:in `process_request'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rack-test-0.6.2/lib/rack/test.rb:57:in `get'
+/home/ec2-user/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/forwardable.rb:201:in `get'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:62:in `process'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:21:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/rack_test/driver.rb:32:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/session.rb:157:in `visit'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/capybara-1.1.2/lib/capybara/dsl.rb:161:in `visit'
+/home/ec2-user/apps/info2310/spec/requests/static_pages_spec.rb:36:in `block (3 levels) in <top (required)>'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:114:in `instance_eval'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:114:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:254:in `with_around_each_hooks'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example.rb:111:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:388:in `block in run_examples'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:384:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:384:in `run_examples'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:369:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/example_group.rb:370:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `map'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:28:in `block in run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/reporter.rb:34:in `report'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/command_line.rb:25:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/runner.rb:80:in `run'
+/home/ec2-user/.rvm/gems/ruby-1.9.3-p286/gems/rspec-core-2.12.2/lib/rspec/core/runner.rb:17:in `block in autorun'
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:25:30 +0000
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:25:30 +0000
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:28:24 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (47.7ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-01-30 19:28:24 +0000
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:28:24 +0000
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-01-30 19:28:24 +0000
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:28:24 +0000
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-01-30 19:28:24 +0000
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
