@@ -121,3 +121,172 @@ Served asset /static_pages.js - 304 Not Modified (0ms)
 
 Started GET "/assets/static_pages.css?body=1" for 128.84.127.79 at 2013-01-30 19:33:23 +0000
 Served asset /static_pages.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (34.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (31.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateUsers (20130206184214)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130206184214')[0m
+  [1m[35m (38.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (32.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (38.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (34.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (27.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130206184214')[0m
+
+
+Started GET "/users" for 128.84.127.4 at 2013-02-06 18:48:33 +0000
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (39.3ms)
+Compiled scaffolds.css  (34ms)  (pid 1364)
+Compiled users.css  (1ms)  (pid 1364)
+Compiled application.css  (67ms)  (pid 1364)
+Compiled users.js  (412ms)  (pid 1364)
+Compiled application.js  (427ms)  (pid 1364)
+Completed 200 OK in 864ms (Views: 749.9ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /static_pages.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /static_pages.js - 200 OK (7ms)
+
+
+Started GET "/assets/users.js?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 128.84.127.4 at 2013-02-06 18:48:35 +0000
+Served asset /application.js - 200 OK (47ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users" for 128.84.127.4 at 2013-02-06 19:09:39 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 27ms (Views: 15.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 128.84.127.4 at 2013-02-06 19:09:39 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 128.84.127.4 at 2013-02-06 19:09:39 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 128.84.127.4 at 2013-02-06 19:09:39 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 128.84.127.4 at 2013-02-06 19:11:12 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 128.84.127.4 at 2013-02-06 19:11:13 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 128.84.127.4 at 2013-02-06 19:11:13 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 128.84.127.4 at 2013-02-06 19:11:13 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/3" for 128.84.127.4 at 2013-02-06 19:11:32 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered users/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 14ms (Views: 11.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 128.84.127.4 at 2013-02-06 19:11:33 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 128.84.127.4 at 2013-02-06 19:11:33 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 128.84.127.4 at 2013-02-06 19:11:33 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/3/edit" for 128.84.127.4 at 2013-02-06 19:11:35 +0000
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered users/_form.html.erb (11.5ms)
+  Rendered users/edit.html.erb within layouts/application (57.3ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 128.84.127.4 at 2013-02-06 19:11:35 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 128.84.127.4 at 2013-02-06 19:11:35 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 128.84.127.4 at 2013-02-06 19:11:35 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 128.84.127.4 at 2013-02-06 19:11:39 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 128.84.127.4 at 2013-02-06 19:11:39 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 128.84.127.4 at 2013-02-06 19:11:39 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 128.84.127.4 at 2013-02-06 19:11:39 +0000
+Served asset /users.js - 304 Not Modified (0ms)
