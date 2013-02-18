@@ -311,3 +311,571 @@ Connecting to database specified by database.yml
   [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
   [1m[35m (35.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130206192231')
   [1m[36m (512.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130206184214')[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/users" for 128.84.127.23 at 2013-02-17 19:14:52 +0000
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 516ms (Views: 398.0ms | ActiveRecord: 39.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 128.84.127.23 at 2013-02-17 19:14:53 +0000
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/micro_posts.css?body=1" for 128.84.127.23 at 2013-02-17 19:14:53 +0000
+Served asset /micro_posts.css - 200 OK (44ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /scaffolds.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /static_pages.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/micro_posts.js?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /micro_posts.js - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /static_pages.js - 200 OK (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 128.84.127.23 at 2013-02-17 19:14:54 +0000
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/users/2" for 128.84.127.23 at 2013-02-17 19:15:03 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMicroPost Load (0.1ms)[0m  [1mSELECT "micro_posts".* FROM "micro_posts" WHERE "micro_posts"."user_id" = 2[0m
+  Rendered collection (0.0ms)
+  Rendered users/show.html.erb within layouts/application (148.2ms)
+Completed 200 OK in 165ms (Views: 161.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/4" for 128.84.127.23 at 2013-02-17 19:15:08 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mMicroPost Load (0.2ms)[0m  [1mSELECT "micro_posts".* FROM "micro_posts" WHERE "micro_posts"."user_id" = 4[0m
+  Rendered micro_posts/_micro_post.html.erb (2.7ms)
+  Rendered users/show.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/3" for 128.84.127.23 at 2013-02-17 19:15:22 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mMicroPost Load (0.2ms)[0m  [1mSELECT "micro_posts".* FROM "micro_posts" WHERE "micro_posts"."user_id" = 3[0m
+  Rendered collection (0.0ms)
+  Rendered users/show.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/4" for 128.84.127.23 at 2013-02-17 19:15:26 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mMicroPost Load (0.2ms)[0m  [1mSELECT "micro_posts".* FROM "micro_posts" WHERE "micro_posts"."user_id" = 4[0m
+  Rendered micro_posts/_micro_post.html.erb (0.3ms)
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 128.84.127.23 at 2013-02-17 19:15:31 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 128.84.127.23 at 2013-02-17 19:51:43 +0000
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.8ms)
+Compiled custom.css  (4551ms)  (pid 1547)
+Compiled application.css  (4573ms)  (pid 1547)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 4797ms (Views: 4796.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 128.84.127.23 at 2013-02-17 19:51:49 +0000
+Served asset /custom.css - 200 OK (52ms)
+
+
+Started GET "/" for 128.84.127.23 at 2013-02-17 19:52:15 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 128.84.127.23 at 2013-02-17 19:52:15 +0000
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/static_pages/help" for 128.84.127.23 at 2013-02-17 19:52:16 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 128.84.127.23 at 2013-02-17 19:52:16 +0000
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/static_pages/about" for 128.84.127.23 at 2013-02-17 19:52:19 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 128.84.127.23 at 2013-02-17 19:52:19 +0000
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/static_pages/about" for 128.84.127.23 at 2013-02-17 19:52:21 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 68ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 128.84.127.23 at 2013-02-17 19:52:22 +0000
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/static_pages/help" for 128.84.127.23 at 2013-02-17 19:52:23 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 128.84.127.23 at 2013-02-17 19:52:23 +0000
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/" for 128.84.127.23 at 2013-02-17 19:52:24 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 128.84.127.23 at 2013-02-17 19:52:24 +0000
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/" for 128.84.127.23 at 2013-02-17 19:52:29 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 128.84.127.23 at 2013-02-17 19:52:29 +0000
+Served asset /custom.css - 304 Not Modified (8ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130206184214)
+Migrating to CreateMicroPosts (20130206192231)
+Migrating to AddHashedPasswordAndSaltToUsers (20130217195359)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "users" ADD "hashed_password" varchar(255)
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "users" ADD "salt" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130217195359')
+  [1m[36m (25.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (49.9ms)[0m  [1mCREATE TABLE "micro_posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "content" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (38.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "hashed_password" varchar(255), "salt" varchar(255)) 
+  [1m[36m (47.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (39.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (27.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130217195359')
+  [1m[36m (32.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130206184214')[0m
+  [1m[35m (26.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130206192231')
+
+
+Started GET "/users" for 67.255.23.178 at 2013-02-18 18:59:39 +0000
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 536ms (Views: 415.1ms | ActiveRecord: 40.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.255.23.178 at 2013-02-18 18:59:40 +0000
+Served asset /application.css - 200 OK (73ms)
+
+
+Started GET "/assets/custom.css?body=1" for 67.255.23.178 at 2013-02-18 18:59:40 +0000
+Served asset /custom.css - 200 OK (16ms)
+
+
+Started GET "/assets/micro_posts.css?body=1" for 67.255.23.178 at 2013-02-18 18:59:40 +0000
+Served asset /micro_posts.css - 200 OK (13ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /static_pages.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /jquery.js - 200 OK (52ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/micro_posts.js?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /micro_posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.255.23.178 at 2013-02-18 18:59:41 +0000
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/users/2" for 67.255.23.178 at 2013-02-18 18:59:48 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMicroPost Load (0.1ms)[0m  [1mSELECT "micro_posts".* FROM "micro_posts" WHERE "micro_posts"."user_id" = 2[0m
+  Rendered collection (0.0ms)
+  Rendered users/show.html.erb within layouts/application (89.7ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 170ms (Views: 166.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/2/edit" for 67.255.23.178 at 2013-02-18 19:18:23 +0000
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered users/_form.html.erb (15.5ms)
+  Rendered users/edit.html.erb within layouts/application (19.7ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 107ms (Views: 104.1ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/users/2" for 67.255.23.178 at 2013-02-18 19:18:29 +0000
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"74VU6WFE8DYyzvYU38vCJLGBqlNhMxSEa99F4QurOOY=", "user"=>{"name"=>"A Nother", "email"=>"another@example.org", "password"=>"[FILTERED]"}, "commit"=>"Update User", "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE (LOWER("users"."email") = LOWER('another@example.org') AND "users"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "users" SET "salt" = '09ce33f206a64ad24443c86e3e822352756d27394240f9d35ecf22bdabf326af', "hashed_password" = 'b143f74439f2be4bbfcb3bbf202d97ec2070a5ae923fdc013f6f3fc03bb73a31', "updated_at" = '2013-02-18 19:18:29.415563' WHERE "users"."id" = 2
+  [1m[36m (33.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://ec2-50-16-121-124.compute-1.amazonaws.com:3000/users/2
+Completed 302 Found in 107ms (ActiveRecord: 34.0ms)
+
+
+Started GET "/users/2" for 67.255.23.178 at 2013-02-18 19:18:29 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMicroPost Load (0.2ms)[0m  [1mSELECT "micro_posts".* FROM "micro_posts" WHERE "micro_posts"."user_id" = 2[0m
+  Rendered collection (0.0ms)
+  Rendered users/show.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/2" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMicroPost Load (0.2ms)[0m  [1mSELECT "micro_posts".* FROM "micro_posts" WHERE "micro_posts"."user_id" = 2[0m
+  Rendered collection (0.0ms)
+  Rendered users/show.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/custom.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /custom.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/micro_posts.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /micro_posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/micro_posts.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /micro_posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:09 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/2/edit" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered users/_form.html.erb (3.7ms)
+  Rendered users/edit.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 72.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/custom.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /custom.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/micro_posts.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /micro_posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/micro_posts.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /micro_posts.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:26 +0000
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started PUT "/users/2" for 67.255.23.178 at 2013-02-18 19:19:33 +0000
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"74VU6WFE8DYyzvYU38vCJLGBqlNhMxSEa99F4QurOOY=", "user"=>{"name"=>"A Nother", "email"=>"hithere@example.org", "password"=>"[FILTERED]"}, "commit"=>"Update User", "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE (LOWER("users"."email") = LOWER('hithere@example.org') AND "users"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/_form.html.erb (4.7ms)
+  Rendered users/edit.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 34.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/custom.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /static_pages.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/micro_posts.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /micro_posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/micro_posts.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /micro_posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 67.255.23.178 at 2013-02-18 19:19:34 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users" for 67.255.23.178 at 2013-02-18 19:33:40 +0000
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (11.4ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 310ms (Views: 223.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/users.css?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/micro_posts.css?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /micro_posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /custom.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /users.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/micro_posts.js?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /micro_posts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 67.255.23.178 at 2013-02-18 19:33:42 +0000
+Served asset /application.js - 304 Not Modified (58ms)
